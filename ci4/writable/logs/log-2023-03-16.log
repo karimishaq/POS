@@ -1,0 +1,80 @@
+ERROR - 2023-03-16 02:52:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`N...', Array, false)
+#4 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Jenis.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index()
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`N...', Array, false)
+#3 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Jenis.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#9 {main}
+CRITICAL - 2023-03-16 02:52:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`Nama`) AS `jdata`
+FROM `jenis_obat`
+WHERE `Nama` LIKE :Nama: ESCAPE \'!\'
+ORDER BY `id` DESC', [...], false)
+ 3 APPPATH\Controllers\Jenis.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-16 02:52:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`N...', Array, false)
+#4 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Jenis.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index()
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`N...', Array, false)
+#3 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Jenis.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#9 {main}
+CRITICAL - 2023-03-16 02:52:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`Nama`) AS `jdata`
+FROM `jenis_obat`
+WHERE `Nama` LIKE :Nama: ESCAPE \'!\'
+ORDER BY `id` DESC', [...], false)
+ 3 APPPATH\Controllers\Jenis.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

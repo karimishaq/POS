@@ -1,0 +1,58 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#tabel_data{
+    margin-top:4px;
+    width:100%;
+    height: fit-content;
+    border-collapse: collapse;
+}
+
+#tabel_data td, #tabel_data th{
+    padding:2px;
+    border: 1px solid black;
+}
+
+#tabel_data tbody tr:nth-child(odd){
+    background-color: gray;
+}
+
+#tabel_data thead{
+    background-color: darkgray;
+}
+
+.formku{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 4px !important;
+}
+
+#transaksi{
+    display: flex;
+    flex-direction: column;
+}
+
+#daftar_item{
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    overflow-x: auto;
+}
+
+#daftar_item > *{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color:yellow;
+    border-top-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    margin:4px;
+    padding:16px 8px;
+}
+
+.thumbnail{
+    width:100%;
+}

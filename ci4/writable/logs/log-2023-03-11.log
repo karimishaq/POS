@@ -1,0 +1,401 @@
+CRITICAL - 2023-03-11 10:45:07 --> Call to undefined method App\Models\PostModel::fetch
+in SYSTEMPATH\Model.php on line 811.
+ 1 APPPATH\Controllers\Post.php(26): CodeIgniter\Model->__call('fetch', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:47:27 --> Call to undefined method App\Models\PostModel::fetch
+in SYSTEMPATH\Model.php on line 811.
+ 1 APPPATH\Controllers\Post.php(26): CodeIgniter\Model->__call('fetch', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:49:24 --> Call to undefined method App\Models\PostModel::fetch
+in SYSTEMPATH\Model.php on line 811.
+ 1 APPPATH\Controllers\Post.php(26): CodeIgniter\Model->__call('fetch', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:51:07 --> Call to undefined method App\Models\PostModel::fetch
+in SYSTEMPATH\Model.php on line 811.
+ 1 APPPATH\Controllers\Post.php(26): CodeIgniter\Model->__call('fetch', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 10:51:10 --> Call to undefined method App\Models\PostModel::fetch
+in SYSTEMPATH\Model.php on line 811.
+ 1 APPPATH\Controllers\Post.php(26): CodeIgniter\Model->__call('fetch', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:42:27 --> Class "App\Controllers\ResourceController" not found
+in APPPATH\Controllers\Post.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Post.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Post')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Post')
+ 5 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Post', true)
+ 6 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 11:42:59 --> Class "App\Controllers\ResourceController" not found
+in APPPATH\Controllers\Post.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Post.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Post')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Post')
+ 5 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Post', true)
+ 6 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-11 23:51:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#11 {main}
+CRITICAL - 2023-03-11 23:51:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-11 23:51:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#11 {main}
+CRITICAL - 2023-03-11 23:51:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-11 23:51:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#11 {main}
+CRITICAL - 2023-03-11 23:51:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-11 23:52:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#11 {main}
+CRITICAL - 2023-03-11 23:52:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-11 23:52:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#11 {main}
+CRITICAL - 2023-03-11 23:52:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-11 23:52:13 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Belajar\CI_API\CI_API\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Belajar\CI_API\CI_API\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Belajar\CI_API\CI_API\ci4\app\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Post->index()
+#7 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 C:\Belajar\CI_API\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Belajar\CI_API\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Belajar\CI_API\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#11 {main}
+CRITICAL - 2023-03-11 23:52:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Post.php(26): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:53:03 --> Class "App\Controllers\MJenis" not found
+in APPPATH\Controllers\Jenis.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Jenis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:53:04 --> Class "App\Controllers\MJenis" not found
+in APPPATH\Controllers\Jenis.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Jenis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:53:34 --> Class "App\Controllers\MJenis" not found
+in APPPATH\Controllers\Jenis.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Jenis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:53:52 --> Class "App\Controllers\MJenis" not found
+in APPPATH\Controllers\Jenis.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Jenis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:53:55 --> Class "App\Controllers\MJenis" not found
+in APPPATH\Controllers\Jenis.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Jenis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:53:57 --> Class "App\Controllers\MJenis" not found
+in APPPATH\Controllers\Jenis.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Jenis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:55:31 --> Class "App\Controllers\MJenis" not found
+in APPPATH\Controllers\Jenis.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Jenis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:56:46 --> Call to a member function builder() on null
+in APPPATH\Controllers\Jenis.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 23:56:48 --> Call to a member function builder() on null
+in APPPATH\Controllers\Jenis.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

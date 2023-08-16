@@ -1,0 +1,594 @@
+CRITICAL - 2023-01-14 02:14:25 --> Cannot call constructor
+in APPPATH\Controllers\Halaman.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 02:21:12 --> Undefined property: App\Controllers\Halaman::$load
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 APPPATH\Controllers\Halaman.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Halaman::$load', 'APPPATH\\Controllers\\Halaman.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 02:21:36 --> Undefined property: App\Controllers\Halaman::$load
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 APPPATH\Controllers\Halaman.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Halaman::$load', 'APPPATH\\Controllers\\Halaman.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 02:21:37 --> Undefined property: App\Controllers\Halaman::$load
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 APPPATH\Controllers\Halaman.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Halaman::$load', 'APPPATH\\Controllers\\Halaman.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 02:23:41 --> Undefined property: App\Controllers\Halaman::$load
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 APPPATH\Controllers\Halaman.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Halaman::$load', 'APPPATH\\Controllers\\Halaman.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 02:24:03 --> Undefined property: App\Controllers\Halaman::$load
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 APPPATH\Controllers\Halaman.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Halaman::$load', 'APPPATH\\Controllers\\Halaman.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:01:56 --> Undefined property: App\Controllers\Halaman::$session
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 APPPATH\Controllers\Halaman.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Halaman::$session', 'APPPATH\\Controllers\\Halaman.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:03:37 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:04:27 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:04:38 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:04:39 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:04:39 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:04:39 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:04:55 --> syntax error, unexpected token "/"
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:05:21 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:05:21 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:06:19 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:06:19 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:06:20 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:06:20 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Halaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Halaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Halaman')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Halaman', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:06:48 --> Class "Config\Service" not found
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:08:20 --> Cannot call constructor
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:08:21 --> Cannot call constructor
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:09:39 --> Class "Config\Service" not found
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:09:40 --> Class "Config\Service" not found
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:09:40 --> Class "Config\Service" not found
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:10:05 --> Class "App\Controllers\Config\Service" not found
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:10:06 --> Class "App\Controllers\Config\Service" not found
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:16:59 --> Undefined constant "App\Controllers\session"
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:17:29 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-14 03:18:28 --> Undefined constant "App\Controllers\session"
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:18:29 --> Undefined constant "App\Controllers\session"
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:18:46 --> Undefined property: App\Controllers\Halaman::$session
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 APPPATH\Controllers\Halaman.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Halaman::$session', 'APPPATH\\Controllers\\Halaman.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:19:22 --> Undefined constant "App\Controllers\session"
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:27:40 --> Undefined constant "App\Controllers\login"
+in APPPATH\Controllers\Halaman.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:28:29 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Controllers\Halaman.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:28:49 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Controllers\Halaman.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:29:15 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Controllers\Halaman.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:30:47 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Controllers\Halaman.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:31:40 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Controllers\Halaman.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 03:32:06 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Controllers\Halaman.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:58:51 --> Undefined constant "App\Controllers\User"
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:59:14 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:59:35 --> Undefined constant "App\Controllers\User"
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:00:15 --> Undefined constant "App\Controllers\User"
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:13:27 --> Undefined variable $tabelku
+in APPPATH\Controllers\Halaman.php on line 15.
+ 1 APPPATH\Controllers\Halaman.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabelku', 'APPPATH\\Controllers\\Halaman.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:13:40 --> Undefined variable $tabelku
+in APPPATH\Controllers\Halaman.php on line 15.
+ 1 APPPATH\Controllers\Halaman.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabelku', 'APPPATH\\Controllers\\Halaman.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:13:52 --> Undefined variable $tabelku
+in APPPATH\Controllers\Halaman.php on line 15.
+ 1 APPPATH\Controllers\Halaman.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabelku', 'APPPATH\\Controllers\\Halaman.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:14:19 --> Undefined variable $tabelku
+in APPPATH\Controllers\Halaman.php on line 15.
+ 1 APPPATH\Controllers\Halaman.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabelku', 'APPPATH\\Controllers\\Halaman.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:15:54 --> Undefined variable $tabelku
+in APPPATH\Controllers\Halaman.php on line 15.
+ 1 APPPATH\Controllers\Halaman.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabelku', 'APPPATH\\Controllers\\Halaman.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:17:04 --> Cannot call constructor
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:32:35 --> Cannot call constructor
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:58:22 --> Cannot call constructor
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:58:23 --> Cannot call constructor
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:58:29 --> Cannot call constructor
+in APPPATH\Controllers\Halaman.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 22:59:58 --> Undefined constant "App\Controllers\table"
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:00:10 --> Undefined constant "App\Controllers\tabel"
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:00:33 --> Undefined constant "App\Controllers\tabel"
+in APPPATH\Controllers\Halaman.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Halaman->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:11:22 --> Undefined constant "App\Controllers\header"
+in APPPATH\Controllers\Halaman.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:17:46 --> Undefined variable $data
+in APPPATH\Views\template\footer.php on line 3.
+ 1 APPPATH\Views\template\footer.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\template\\footer.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/footer', [], true)
+ 5 APPPATH\Controllers\Halaman.php(19): view('template/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:18:49 --> Undefined variable $dt
+in APPPATH\Views\template\footer.php on line 3.
+ 1 APPPATH\Views\template\footer.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dt', 'APPPATH\\Views\\template\\footer.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/footer', [], true)
+ 5 APPPATH\Controllers\Halaman.php(19): view('template/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:29:31 --> Undefined constant "App\Controllers\length"
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:29:44 --> Attempt to read property "length" on array
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 APPPATH\Controllers\Halaman.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "length" on array', 'APPPATH\\Controllers\\Halaman.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:29:45 --> Attempt to read property "length" on array
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 APPPATH\Controllers\Halaman.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "length" on array', 'APPPATH\\Controllers\\Halaman.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:29:45 --> Attempt to read property "length" on array
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 APPPATH\Controllers\Halaman.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "length" on array', 'APPPATH\\Controllers\\Halaman.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:29:58 --> Array to string conversion
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 APPPATH\Controllers\Halaman.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Halaman.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:30:16 --> Undefined constant "App\Controllers\length"
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:30:30 --> Call to undefined function App\Controllers\length()
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:30:54 --> count() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 APPPATH\Controllers\Halaman.php(19): count()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:31:02 --> Undefined constant "App\Controllers\count"
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:31:10 --> Undefined constant "App\Controllers\length"
+in APPPATH\Controllers\Halaman.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:35:06 --> Undefined variable $tabel
+in APPPATH\Views\template\footer.php on line 3.
+ 1 APPPATH\Views\template\footer.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabel', 'APPPATH\\Views\\template\\footer.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/footer', [], true)
+ 5 APPPATH\Controllers\Halaman.php(19): view('template/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:37:16 --> Undefined constant "Nama"
+in APPPATH\Views\template\footer.php on line 3.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/footer', [], true)
+ 4 APPPATH\Controllers\Halaman.php(19): view('template/footer', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 23:37:30 --> Attempt to read property "Nama" on array
+in APPPATH\Views\template\footer.php on line 3.
+ 1 APPPATH\Views\template\footer.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Nama" on array', 'APPPATH\\Views\\template\\footer.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/footer', [], true)
+ 5 APPPATH\Controllers\Halaman.php(19): view('template/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Halaman->index('ROOTPATH\\public', 'ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Halaman))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

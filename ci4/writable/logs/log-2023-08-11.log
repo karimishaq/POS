@@ -1,0 +1,597 @@
+CRITICAL - 2023-08-11 02:11:32 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Web/Tes.php::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Web/Tes.php::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('tes')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tes')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 02:23:54 --> Class "App\Controllers\Web\BaseController" not found
+in APPPATH\Controllers\web\Test.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\web\\Test.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\web\\Test')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\web\\Test')
+ 5 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\web\\Test', true)
+ 6 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 02:24:33 --> Class "App\Controllers\Web\BaseController" not found
+in APPPATH\Controllers\web\Test.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\web\\Test.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\web\\Test')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\web\\Test')
+ 5 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\web\\Test', true)
+ 6 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:08:03 --> Undefined constant "dashboard"
+in APPPATH\Views\layout.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 5 APPPATH\Controllers\web\Kategori.php(12): view('web/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:14:54 --> Undefined variable $tabel
+in APPPATH\Views\layout.php on line 28.
+ 1 APPPATH\Views\layout.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabel', 'APPPATH\\Views\\layout.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/dashboard', [], true)
+ 6 APPPATH\Controllers\web\Dashboard.php(13): view('web/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:15:18 --> Array to string conversion
+in APPPATH\Views\layout.php on line 28.
+ 1 APPPATH\Views\layout.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\layout.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/dashboard', [], true)
+ 6 APPPATH\Controllers\web\Dashboard.php(13): view('web/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-08-11 03:18:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Belajar\CI_API\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(1361): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(1380): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Belajar\CI_API\ci4\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Belajar\CI_API\ci4\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Belajar\CI_API\ci4\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Belajar\CI_API\ci4\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Belajar\CI_API\ci4\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Belajar\CI_API\ci4\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Belajar\CI_API\ci4\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\Belajar\CI_API\ci4\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Belajar\CI_API\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(1361): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(1380): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Belajar\CI_API\ci4\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Belajar\CI_API\ci4\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Belajar\CI_API\ci4\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Belajar\CI_API\ci4\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Belajar\CI_API\ci4\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Belajar\CI_API\ci4\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Belajar\CI_API\ci4\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\Belajar\CI_API\ci4\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2023-08-11 03:19:20 --> mysqli_sql_exception: Unknown column 'namespace' in 'where clause' in C:\Belajar\CI_API\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Belajar\CI_API\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Belajar\CI_API\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Belajar\CI_API\ci4\system\Database\MigrationRunner.php(662): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Belajar\CI_API\ci4\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 C:\Belajar\CI_API\ci4\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Belajar\CI_API\ci4\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Belajar\CI_API\ci4\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Belajar\CI_API\ci4\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Belajar\CI_API\ci4\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\Belajar\CI_API\ci4\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2023-08-11 03:35:44 --> Could not check compatibility between App\Controllers\Web\Kategori::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\Logger\LoggerInterface $log) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class Psr\Log\Logger\LoggerInterface is not available
+in APPPATH\Controllers\web\Kategori.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-11 03:37:37 --> Class "App\Controllers\Web\App\Models\Jenis" not found
+in APPPATH\Controllers\web\Kategori.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(888): App\Controllers\Web\Kategori->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:38:21 --> syntax error, unexpected variable "$model", expecting identifier
+in APPPATH\Controllers\web\Kategori.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\web\\Kategori.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\web\\Kategori')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\web\\Kategori')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\web\\Kategori', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:39:25 --> Class "App\Models\Jenis" not found
+in APPPATH\Controllers\web\Kategori.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:40:58 --> Class "App\Controllers\Web\Modelku" not found
+in APPPATH\Controllers\web\Kategori.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:44:57 --> Call to a member function findAll() on null
+in APPPATH\Controllers\web\Kategori.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(888): App\Controllers\Web\Kategori->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:45:19 --> Call to a member function findAll() on null
+in APPPATH\Controllers\web\Kategori.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(888): App\Controllers\Web\Kategori->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:47:05 --> Class "App\Controllers\Web\App\Models\Jenis" not found
+in APPPATH\Controllers\web\Kategori.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(888): App\Controllers\Web\Kategori->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:47:21 --> Class "App\Models\Jenis" not found
+in APPPATH\Controllers\web\Kategori.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(888): App\Controllers\Web\Kategori->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:47:33 --> Class "App\Models\Jenis" not found
+in APPPATH\Controllers\web\Kategori.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(888): App\Controllers\Web\Kategori->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:49:34 --> New expressions are not supported in this context
+in APPPATH\Controllers\web\Kategori.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-11 03:51:30 --> Array to string conversion
+in APPPATH\Views\layout.php on line 29.
+ 1 APPPATH\Views\layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\layout.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 6 APPPATH\Controllers\web\Kategori.php(22): view('web/kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:52:27 --> Array to string conversion
+in APPPATH\Views\layout.php on line 29.
+ 1 APPPATH\Views\layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\layout.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 6 APPPATH\Controllers\web\Kategori.php(22): view('web/kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:53:08 --> Undefined array key "nama"
+in APPPATH\Views\layout.php on line 29.
+ 1 APPPATH\Views\layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\layout.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 6 APPPATH\Controllers\web\Kategori.php(22): view('web/kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:54:08 --> Undefined array key "Jenis"
+in APPPATH\Views\layout.php on line 30.
+ 1 APPPATH\Views\layout.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Jenis"', 'APPPATH\\Views\\layout.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 6 APPPATH\Controllers\web\Kategori.php(22): view('web/kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 03:57:26 --> Undefined variable $header
+in APPPATH\Views\layout.php on line 23.
+ 1 APPPATH\Views\layout.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'APPPATH\\Views\\layout.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 6 APPPATH\Controllers\web\Kategori.php(23): view('web/kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 04:02:17 --> Could not check compatibility between App\Controllers\Web\Satuan::initController(App\Controllers\Web\RequestInterface $request, App\Controllers\Web\ResponseInterface $response, App\Controllers\Web\LoggerInterface $log) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\Web\RequestInterface is not available
+in APPPATH\Controllers\web\Satuan.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-11 04:02:43 --> Class "App\Models\MSatuan" not found
+in APPPATH\Controllers\web\Satuan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(888): App\Controllers\Web\Satuan->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 04:07:19 --> Undefined variable $judul
+in APPPATH\Views\web\satuan.php on line 3.
+ 1 APPPATH\Views\web\satuan.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\web\\satuan.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\satuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/satuan', [], true)
+ 5 APPPATH\Controllers\web\Satuan.php(24): view('web/satuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 04:08:00 --> Undefined variable $judul
+in APPPATH\Views\web\satuan.php on line 3.
+ 1 APPPATH\Views\web\satuan.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\web\\satuan.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\satuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/satuan', [], true)
+ 5 APPPATH\Controllers\web\Satuan.php(24): view('web/satuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 04:09:08 --> Undefined variable $judul
+in APPPATH\Views\web\satuan.php on line 3.
+ 1 APPPATH\Views\web\satuan.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\web\\satuan.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\satuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/satuan', [], true)
+ 5 APPPATH\Controllers\web\Satuan.php(24): view('web/satuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 04:09:08 --> Undefined variable $judul
+in APPPATH\Views\web\satuan.php on line 3.
+ 1 APPPATH\Views\web\satuan.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\web\\satuan.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\satuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/satuan', [], true)
+ 5 APPPATH\Controllers\web\Satuan.php(24): view('web/satuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 04:09:35 --> Undefined variable $judul
+in APPPATH\Views\web\satuan.php on line 3.
+ 1 APPPATH\Views\web\satuan.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\web\\satuan.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\satuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/satuan', [], true)
+ 5 APPPATH\Controllers\web\Satuan.php(24): view('web/satuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 04:10:30 --> Undefined variable $judul
+in APPPATH\Views\layout.php on line 8.
+ 1 APPPATH\Views\layout.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\layout.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/satuan', [], true)
+ 6 APPPATH\Controllers\web\Satuan.php(24): view('web/satuan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 04:11:14 --> Undefined variable $judul
+in APPPATH\Views\layout.php on line 8.
+ 1 APPPATH\Views\layout.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\layout.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/satuan', [], true)
+ 6 APPPATH\Controllers\web\Satuan.php(24): view('web/satuan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:05:13 --> The route for "http://localhost:8080/satuan" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/satuan')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\web\Satuan.php(28): redirect('http://localhost:8080/satuan')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->hapus()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:06:19 --> The route for "get://localhost:8080/satuan" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('get://localhost:8080/satuan')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\web\Satuan.php(28): redirect('get://localhost:8080/satuan')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->hapus()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:07:27 --> Undefined constant "App\Controllers\Web\redirect"
+in APPPATH\Controllers\web\Satuan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->hapus()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:12:22 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Model.php(425): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(0, false)
+ 3 APPPATH\Controllers\web\Satuan.php(28): CodeIgniter\BaseModel->delete(0)
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->hapus()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:13:45 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Model.php(425): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\web\Satuan.php(31): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->hapus()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:13:47 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Model.php(425): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\web\Satuan.php(31): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->hapus()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:15:04 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Model.php(425): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\web\Satuan.php(31): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->hapus()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:17:50 --> Call to a member function delete() on array
+in APPPATH\Controllers\web\Satuan.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->hapus('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:30:38 --> Undefined variable $data
+in APPPATH\Views\web\kategori.php on line 13.
+ 1 APPPATH\Views\web\kategori.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\web\\kategori.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 5 APPPATH\Controllers\web\Kategori.php(24): view('web/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:53:58 --> Too few arguments to function App\Controllers\Web\Satuan::tambah(), 0 passed in C:\Belajar\CI_API\ci4\system\CodeIgniter.php on line 925 and exactly 2 expected
+in APPPATH\Controllers\web\Satuan.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 06:54:42 --> Too few arguments to function App\Controllers\Web\Satuan::tambah(), 0 passed in C:\Belajar\CI_API\ci4\system\CodeIgniter.php on line 925 and exactly 2 expected
+in APPPATH\Controllers\web\Satuan.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 08:08:36 --> Undefined variable $data
+in APPPATH\Views\web\kategori.php on line 13.
+ 1 APPPATH\Views\web\kategori.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\web\\kategori.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 5 APPPATH\Controllers\web\Kategori.php(24): view('web/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 08:08:58 --> Undefined variable $data
+in APPPATH\Views\web\kategori.php on line 13.
+ 1 APPPATH\Views\web\kategori.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\web\\kategori.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 5 APPPATH\Controllers\web\Kategori.php(24): view('web/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 08:13:14 --> Call to undefined method App\Controllers\Web\Satuan::input()
+in APPPATH\Controllers\web\Satuan.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 08:17:42 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\web\Satuan.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-08-11 08:18:44 --> mysqli_sql_exception: Column 'Keterangan' cannot be null in C:\Belajar\CI_API\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Belajar\CI_API\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 C:\Belajar\CI_API\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 C:\Belajar\CI_API\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 C:\Belajar\CI_API\ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Belajar\CI_API\ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\Belajar\CI_API\ci4\system\Model.php(699): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Belajar\CI_API\ci4\app\Controllers\web\Satuan.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(925): App\Controllers\Web\Satuan->tambah()
+#9 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+#10 C:\Belajar\CI_API\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Belajar\CI_API\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Belajar\CI_API\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Belajar\\CI_A...')
+#13 {main}
+CRITICAL - 2023-08-11 08:18:44 --> Column 'Keterangan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `satuan` (`Nama`, `Keterangan`) VALUES (\'Ana\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `satuan` (`Nama`, `Keterangan`) VALUES (\'Ana\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `satuan` (`Nama`, `Keterangan`) VALUES (\'Ana\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `satuan` (`Nama`, `Keterangan`) VALUES (:Nama:, :Keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(699): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\web\Satuan.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->tambah()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 10:20:29 --> Undefined variable $cfolder
+in APPPATH\Views\web\satuan.php on line 64.
+ 1 APPPATH\Views\web\satuan.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cfolder', 'APPPATH\\Views\\web\\satuan.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\web\\satuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/satuan', [], true)
+ 5 APPPATH\Controllers\web\Satuan.php(24): view('web/satuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Satuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Satuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 21:27:08 --> Invalid file: web/layout.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/layout.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/layout', [], true)
+ 3 APPPATH\Controllers\web\Dashboard.php(14): view('web/layout', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 22:55:09 --> syntax error, unexpected double-quote mark, expecting "," or ";"
+in APPPATH\Views\layout.php on line 99.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/kategori', [], true)
+ 4 APPPATH\Controllers\web\Kategori.php(24): view('web/kategori', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 23:32:13 --> Class "App\Models\MUsers" not found
+in APPPATH\Controllers\web\Users.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(888): App\Controllers\Web\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 23:32:45 --> Invalid file: web/Users.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/Users.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/Users', [], true)
+ 3 APPPATH\Controllers\web\Users.php(24): view('web/Users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 23:35:45 --> Invalid file: web/Users.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/Users.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/Users', [], true)
+ 3 APPPATH\Controllers\web\Users.php(24): view('web/Users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-11 23:37:54 --> Invalid file: web/users.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/users.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('web/users', [], true)
+ 3 APPPATH\Controllers\web\Users.php(24): view('web/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Web\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

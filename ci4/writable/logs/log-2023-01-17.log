@@ -1,0 +1,1385 @@
+CRITICAL - 2023-01-17 00:16:12 --> Undefined variable $hasil
+in APPPATH\Controllers\Forum.php on line 89.
+ 1 APPPATH\Controllers\Forum.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Controllers\\Forum.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->logout()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 00:17:06 --> Undefined variable $hasil
+in APPPATH\Controllers\Forum.php on line 89.
+ 1 APPPATH\Controllers\Forum.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Controllers\\Forum.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->logout()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:15:12 --> Attempt to read property "hasil" on array
+in APPPATH\Controllers\Forum.php on line 29.
+ 1 APPPATH\Controllers\Forum.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "hasil" on array', 'APPPATH\\Controllers\\Forum.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:15:13 --> Attempt to read property "hasil" on array
+in APPPATH\Controllers\Forum.php on line 29.
+ 1 APPPATH\Controllers\Forum.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "hasil" on array', 'APPPATH\\Controllers\\Forum.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:15:40 --> Array to string conversion
+in APPPATH\Controllers\Forum.php on line 29.
+ 1 APPPATH\Controllers\Forum.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Forum.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:30:14 --> Undefined array key "Idku"
+in APPPATH\Views\Forum\Forum.php on line 70.
+ 1 APPPATH\Views\Forum\Forum.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idku"', 'APPPATH\\Views\\Forum\\Forum.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Forum\\Forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Forum/Forum', [], true)
+ 5 APPPATH\Controllers\Forum.php(53): view('Forum/Forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:31:43 --> Undefined array key "Idku"
+in APPPATH\Views\Forum\Forum.php on line 70.
+ 1 APPPATH\Views\Forum\Forum.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idku"', 'APPPATH\\Views\\Forum\\Forum.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Forum\\Forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Forum/Forum', [], true)
+ 5 APPPATH\Controllers\Forum.php(53): view('Forum/Forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:34:27 --> Undefined array key "Idku"
+in APPPATH\Views\Forum\Forum.php on line 70.
+ 1 APPPATH\Views\Forum\Forum.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idku"', 'APPPATH\\Views\\Forum\\Forum.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Forum\\Forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Forum/Forum', [], true)
+ 5 APPPATH\Controllers\Forum.php(52): view('Forum/Forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:34:28 --> Undefined array key "Idku"
+in APPPATH\Views\Forum\Forum.php on line 70.
+ 1 APPPATH\Views\Forum\Forum.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idku"', 'APPPATH\\Views\\Forum\\Forum.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Forum\\Forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Forum/Forum', [], true)
+ 5 APPPATH\Controllers\Forum.php(52): view('Forum/Forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:34:50 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Forum.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:40:07 --> Undefined array key "Idku"
+in APPPATH\Views\Forum\Forum.php on line 70.
+ 1 APPPATH\Views\Forum\Forum.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idku"', 'APPPATH\\Views\\Forum\\Forum.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Forum\\Forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Forum/Forum', [], true)
+ 5 APPPATH\Controllers\Forum.php(52): view('Forum/Forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 05:40:28 --> Undefined array key "Idku"
+in APPPATH\Views\Forum\Forum.php on line 70.
+ 1 APPPATH\Views\Forum\Forum.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idku"', 'APPPATH\\Views\\Forum\\Forum.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Forum\\Forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Forum/Forum', [], true)
+ 5 APPPATH\Controllers\Forum.php(52): view('Forum/Forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 05:46:21 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('Select (pertany...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('Select (pertany...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('Select (pertany...')
+#3 C:\Project\ci-news\app\Controllers\Forum.php(26): CodeIgniter\Database\BaseConnection->query('Select (pertany...')
+#4 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->index()
+#5 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#6 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#9 {main}
+ERROR - 2023-01-17 05:46:23 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('Select (pertany...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('Select (pertany...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('Select (pertany...')
+#3 C:\Project\ci-news\app\Controllers\Forum.php(26): CodeIgniter\Database\BaseConnection->query('Select (pertany...')
+#4 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->index()
+#5 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#6 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#9 {main}
+ERROR - 2023-01-17 05:46:45 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('Select (pertany...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('Select (pertany...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('Select (pertany...')
+#3 C:\Project\ci-news\app\Controllers\Forum.php(28): CodeIgniter\Database\BaseConnection->query('Select (pertany...')
+#4 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->index()
+#5 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#6 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#9 {main}
+CRITICAL - 2023-01-17 07:21:57 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 07:22:27 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 07:22:40 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 07:23:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Forum.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 07:23:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Forum.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 07:24:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Forum.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 07:24:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Forum.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 07:26:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+in APPPATH\Controllers\Forum.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:03:53 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Forum.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:04:10 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Forum.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:05:26 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Forum.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 08:06:17 --> mysqli_sql_exception: Unknown column 'Jawaban.Tanggal' in 'order clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\app\Controllers\Forum.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#6 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#7 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#10 {main}
+CRITICAL - 2023-01-17 08:06:17 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 08:07:18 --> mysqli_sql_exception: Unknown column 'Jawaban.Tanggal' in 'order clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\app\Controllers\Forum.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#6 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#7 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#10 {main}
+ERROR - 2023-01-17 08:07:51 --> mysqli_sql_exception: Unknown column 'Jawaban.Tanggal' in 'order clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\app\Controllers\Forum.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#6 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#7 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#10 {main}
+CRITICAL - 2023-01-17 08:07:51 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:08:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Controllers\Forum.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 08:08:16 --> mysqli_sql_exception: Unknown column 'Jawaban.Tanggal' in 'order clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\app\Controllers\Forum.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#6 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#7 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#10 {main}
+CRITICAL - 2023-01-17 08:08:16 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:12:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Controllers\Forum.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:12:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Controllers\Forum.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:13:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Controllers\Forum.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:14:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Controllers\Forum.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:17:05 --> Undefined variable $pertanyaan
+in APPPATH\Controllers\Forum.php on line 78.
+ 1 APPPATH\Controllers\Forum.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pertanyaan', 'APPPATH\\Controllers\\Forum.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:19:16 --> Attempt to read property "Tanggal" on array
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 APPPATH\Controllers\Forum.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Tanggal" on array', 'APPPATH\\Controllers\\Forum.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:20:22 --> Attempt to read property "Tanggal" on array
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 APPPATH\Controllers\Forum.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Tanggal" on array', 'APPPATH\\Controllers\\Forum.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:20:36 --> Attempt to assign property "Tanggal" on array
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:21:04 --> Attempt to read property "Tanggal" on array
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 APPPATH\Controllers\Forum.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Tanggal" on array', 'APPPATH\\Controllers\\Forum.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:22:16 --> Undefined array key "Tanggal"
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 APPPATH\Controllers\Forum.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tanggal"', 'APPPATH\\Controllers\\Forum.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:22:45 --> Undefined array key "Tanggal"
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 APPPATH\Controllers\Forum.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tanggal"', 'APPPATH\\Controllers\\Forum.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:23:17 --> Array to string conversion
+in APPPATH\Controllers\Forum.php on line 77.
+ 1 APPPATH\Controllers\Forum.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Forum.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:23:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Forum.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:24:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getFirst()
+in APPPATH\Controllers\Forum.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:24:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+in APPPATH\Controllers\Forum.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:28:05 --> Unclosed '{' on line 59 does not match ')'
+in APPPATH\Controllers\Forum.php on line 61.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:28:18 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Forum.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:29:35 --> Undefined array key "Nama"
+in APPPATH\Controllers\Forum.php on line 76.
+ 1 APPPATH\Controllers\Forum.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'APPPATH\\Controllers\\Forum.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:29:46 --> Undefined array key 0
+in APPPATH\Controllers\Forum.php on line 76.
+ 1 APPPATH\Controllers\Forum.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Forum.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:30:27 --> Attempt to read property "Nama" on array
+in APPPATH\Controllers\Forum.php on line 76.
+ 1 APPPATH\Controllers\Forum.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Nama" on array', 'APPPATH\\Controllers\\Forum.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:30:49 --> Undefined variable $pertanyaan
+in APPPATH\Controllers\Forum.php on line 66.
+ 1 APPPATH\Controllers\Forum.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pertanyaan', 'APPPATH\\Controllers\\Forum.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:31:29 --> Undefined array key 0
+in APPPATH\Controllers\Forum.php on line 76.
+ 1 APPPATH\Controllers\Forum.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Forum.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 08:34:05 --> Undefined variable $pengguna
+in APPPATH\Controllers\Forum.php on line 64.
+ 1 APPPATH\Controllers\Forum.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Controllers\\Forum.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 08:35:02 --> mysqli_sql_exception: Unknown column 'pertanyaan.Id' in 'where clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\Project\ci-news\app\Controllers\Forum.php(62): CodeIgniter\BaseModel->first()
+#7 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#8 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#9 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#12 {main}
+CRITICAL - 2023-01-17 08:35:02 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 267.
+ 1 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Forum.php(62): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:00:24 --> Undefined array key "Tanggal"
+in APPPATH\Controllers\Forum.php on line 74.
+ 1 APPPATH\Controllers\Forum.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tanggal"', 'APPPATH\\Controllers\\Forum.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 09:11:33 --> mysqli_sql_exception: Unknown column 'pertanyaan.Id' in 'where clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\Project\ci-news\app\Controllers\Forum.php(62): CodeIgniter\BaseModel->first()
+#7 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#8 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#9 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#12 {main}
+CRITICAL - 2023-01-17 09:11:33 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 267.
+ 1 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Forum.php(62): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 09:12:06 --> mysqli_sql_exception: Unknown column 'pertanyaan.Id' in 'where clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\Project\ci-news\app\Controllers\Forum.php(61): CodeIgniter\BaseModel->first()
+#7 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#8 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#9 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#12 {main}
+CRITICAL - 2023-01-17 09:12:06 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 267.
+ 1 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Forum.php(61): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 09:12:37 --> mysqli_sql_exception: Unknown column 'pertanyaan.Id' in 'where clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\Project\ci-news\app\Controllers\Forum.php(61): CodeIgniter\BaseModel->first()
+#7 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#8 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#9 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#12 {main}
+CRITICAL - 2023-01-17 09:12:37 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 267.
+ 1 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Forum.php(61): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 09:13:11 --> mysqli_sql_exception: Unknown column 'pertanyaan.Id' in 'where clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\Project\ci-news\app\Controllers\Forum.php(62): CodeIgniter\BaseModel->first()
+#7 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#8 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#9 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#12 {main}
+CRITICAL - 2023-01-17 09:13:11 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 267.
+ 1 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Forum.php(62): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:14:44 --> Undefined array key 1
+in APPPATH\Controllers\Forum.php on line 202.
+ 1 APPPATH\Controllers\Forum.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Forum.php', 202)
+ 2 APPPATH\Controllers\Forum.php(73): App\Controllers\Forum->selisih_waktu('2023-01-17')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:18:57 --> Undefined array key 1
+in APPPATH\Controllers\Forum.php on line 201.
+ 1 APPPATH\Controllers\Forum.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Forum.php', 201)
+ 2 APPPATH\Controllers\Forum.php(72): App\Controllers\Forum->selisih_waktu('2023-01-17')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:19:23 --> Undefined array key "tanggal"
+in APPPATH\Controllers\Forum.php on line 72.
+ 1 APPPATH\Controllers\Forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'APPPATH\\Controllers\\Forum.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:20:09 --> Undefined array key "tanggal"
+in APPPATH\Controllers\Forum.php on line 72.
+ 1 APPPATH\Controllers\Forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'APPPATH\\Controllers\\Forum.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:20:57 --> Undefined array key 1
+in APPPATH\Controllers\Forum.php on line 201.
+ 1 APPPATH\Controllers\Forum.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Forum.php', 201)
+ 2 APPPATH\Controllers\Forum.php(72): App\Controllers\Forum->selisih_waktu('2023-01-17')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:22:42 --> Undefined array key 1
+in APPPATH\Controllers\Forum.php on line 201.
+ 1 APPPATH\Controllers\Forum.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Forum.php', 201)
+ 2 APPPATH\Controllers\Forum.php(72): App\Controllers\Forum->selisih_waktu('2023-01-17')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:24:17 --> Undefined array key 1
+in APPPATH\Controllers\Forum.php on line 215.
+ 1 APPPATH\Controllers\Forum.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Forum.php', 215)
+ 2 APPPATH\Controllers\Forum.php(72): App\Controllers\Forum->selisih_waktu('2023-01-17')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:30:20 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:30:58 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:31:13 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:32:17 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:32:43 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:32:56 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:33:23 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:33:47 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 203.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:33:48 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 203.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:34:11 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:34:12 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:34:31 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 203.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:34:32 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 203.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:35:32 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Forum.php on line 201.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:36:27 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 205.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:36:45 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:37:09 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:37:37 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Forum.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:41:07 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Forum.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:41:34 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Forum.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:43:47 --> Undefined variable $session
+in APPPATH\Controllers\Forum.php on line 86.
+ 1 APPPATH\Controllers\Forum.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Forum.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:44:05 --> Undefined variable $session
+in APPPATH\Controllers\Forum.php on line 86.
+ 1 APPPATH\Controllers\Forum.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Forum.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:44:22 --> Undefined variable $session
+in APPPATH\Controllers\Forum.php on line 86.
+ 1 APPPATH\Controllers\Forum.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Forum.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:44:41 --> Undefined variable $session
+in APPPATH\Controllers\Forum.php on line 86.
+ 1 APPPATH\Controllers\Forum.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Forum.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:45:02 --> Undefined variable $session
+in APPPATH\Controllers\Forum.php on line 86.
+ 1 APPPATH\Controllers\Forum.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Forum.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 09:45:23 --> Undefined variable $session
+in APPPATH\Controllers\Forum.php on line 86.
+ 1 APPPATH\Controllers\Forum.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Forum.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:00:48 --> Undefined property: App\Controllers\Forum::$Forumku
+in APPPATH\Controllers\Forum.php on line 98.
+ 1 APPPATH\Controllers\Forum.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Forum::$Forumku', 'APPPATH\\Controllers\\Forum.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:01:08 --> Undefined property: App\Controllers\Forum::$Forumku
+in APPPATH\Controllers\Forum.php on line 98.
+ 1 APPPATH\Controllers\Forum.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Forum::$Forumku', 'APPPATH\\Controllers\\Forum.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:01:23 --> Undefined property: App\Controllers\Forum::$Forumku
+in APPPATH\Controllers\Forum.php on line 98.
+ 1 APPPATH\Controllers\Forum.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Forum::$Forumku', 'APPPATH\\Controllers\\Forum.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:01:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::countAllResult()
+in APPPATH\Controllers\Forum.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:02:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::countAllResult()
+in APPPATH\Controllers\Forum.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:03:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::countAllResult()
+in APPPATH\Controllers\Forum.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:03:27 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Forum.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:03:48 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Forum.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 10:05:11 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Forum.php on line 107.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:16:03 --> Attempt to read property "Penanya" on array
+in APPPATH\Controllers\Forum.php on line 99.
+ 1 APPPATH\Controllers\Forum.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Penanya" on array', 'APPPATH\\Controllers\\Forum.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:26:00 --> Attempt to read property "Jawaban_terbaik" on array
+in APPPATH\Controllers\Forum.php on line 100.
+ 1 APPPATH\Controllers\Forum.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Jawaban_terbaik" on array', 'APPPATH\\Controllers\\Forum.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:26:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Forum.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 11:28:21 --> mysqli_sql_exception: Unknown column 'Jawaban.Idku' in 'where clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\Project\ci-news\app\Controllers\Forum.php(100): CodeIgniter\BaseModel->first()
+#7 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#8 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#9 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#12 {main}
+CRITICAL - 2023-01-17 11:28:21 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 267.
+ 1 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Forum.php(100): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 11:30:38 --> mysqli_sql_exception: Unknown column 'Jawaban.Id' in 'where clause' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\Project\ci-news\app\Controllers\Forum.php(100): CodeIgniter\BaseModel->first()
+#7 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#8 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#9 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#12 {main}
+CRITICAL - 2023-01-17 11:30:38 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 267.
+ 1 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Forum.php(100): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:38:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+in APPPATH\Controllers\Forum.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:40:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+in APPPATH\Controllers\Forum.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:41:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Forum.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:42:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Forum.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:42:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+in APPPATH\Controllers\Forum.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:45:26 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Forum.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:45:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getRow()
+in APPPATH\Controllers\Forum.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:47:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::row()
+in APPPATH\Controllers\Forum.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:47:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::rowArray()
+in APPPATH\Controllers\Forum.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 11:50:29 --> mysqli_sql_exception: Not unique table/alias: 'Pertanyaan' in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\app\Controllers\Forum.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#6 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#7 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#10 {main}
+CRITICAL - 2023-01-17 11:50:29 --> Not unique table/alias: 'Pertanyaan'
+in SYSTEMPATH\Database\MySQLi\Result.php on line 132.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(132): mysqli_result->fetch_assoc()
+ 2 SYSTEMPATH\Database\BaseResult.php(190): CodeIgniter\Database\MySQLi\Result->fetchAssoc()
+ 3 SYSTEMPATH\Database\BaseResult.php(309): CodeIgniter\Database\BaseResult->getResultArray()
+ 4 APPPATH\Controllers\Forum.php(102): CodeIgniter\Database\BaseResult->getRowArray()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 11:51:47 --> mysqli_sql_exception: Column 'Id' in where clause is ambiguous in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\app\Controllers\Forum.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#6 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#7 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#10 {main}
+CRITICAL - 2023-01-17 11:51:47 --> Column 'Id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Result.php on line 132.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(132): mysqli_result->fetch_assoc()
+ 2 SYSTEMPATH\Database\BaseResult.php(190): CodeIgniter\Database\MySQLi\Result->fetchAssoc()
+ 3 SYSTEMPATH\Database\BaseResult.php(309): CodeIgniter\Database\BaseResult->getResultArray()
+ 4 APPPATH\Controllers\Forum.php(104): CodeIgniter\Database\BaseResult->getRowArray()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:53:02 --> syntax error, unexpected variable "$hasil"
+in APPPATH\Controllers\Forum.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 11:53:40 --> syntax error, unexpected variable "$hasil"
+in APPPATH\Controllers\Forum.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 11:57:16 --> mysqli_sql_exception: Column 'Id' in where clause is ambiguous in C:\Project\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\ci-news\app\Controllers\Forum.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\ci-news\system\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+#6 C:\Project\ci-news\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#7 C:\Project\ci-news\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\ci-news\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\ci-n...')
+#10 {main}
+CRITICAL - 2023-01-17 11:57:16 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\Forum.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:00:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::join()
+in APPPATH\Controllers\Forum.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:00:41 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 103.
+ 1 APPPATH\Controllers\Forum.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:00:55 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 103.
+ 1 APPPATH\Controllers\Forum.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:01:14 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 103.
+ 1 APPPATH\Controllers\Forum.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:07:11 --> Undefined variable $tb_pengguna
+in APPPATH\Controllers\Forum.php on line 62.
+ 1 APPPATH\Controllers\Forum.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_pengguna', 'APPPATH\\Controllers\\Forum.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:07:41 --> Undefined variable $tb_pengguna
+in APPPATH\Controllers\Forum.php on line 62.
+ 1 APPPATH\Controllers\Forum.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_pengguna', 'APPPATH\\Controllers\\Forum.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:08:01 --> Undefined variable $tb_pengguna
+in APPPATH\Controllers\Forum.php on line 62.
+ 1 APPPATH\Controllers\Forum.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_pengguna', 'APPPATH\\Controllers\\Forum.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:08:14 --> Undefined variable $tb_pengguna
+in APPPATH\Controllers\Forum.php on line 62.
+ 1 APPPATH\Controllers\Forum.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_pengguna', 'APPPATH\\Controllers\\Forum.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:09:54 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:10:15 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:10:53 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:11:18 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:11:39 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:11:54 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Forum.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:12:40 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:12:57 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:13:12 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Forum.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Forum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Forum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Forum')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Forum', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:13:33 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:14:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Controllers\Forum.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 12:15:55 --> Undefined variable $id
+in APPPATH\Controllers\Forum.php on line 63.
+ 1 APPPATH\Controllers\Forum.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Forum.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Forum->jawaban('0')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

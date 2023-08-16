@@ -1,0 +1,1071 @@
+CRITICAL - 2023-03-04 15:39:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-04 08:42:50 --> Class "App\Models\User" not found
+in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 08:57:12 --> Class "App\Models\User" not found
+in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 08:57:15 --> Class "App\Models\User" not found
+in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 08:57:47 --> Class "App\Models\User" not found
+in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 08:59:15 --> Class "App\Controllers\User" not found
+in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 09:17:56 --> mysqli_sql_exception: Table 'db_apotek.pengguna' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Product.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Product->index()
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+CRITICAL - 2023-03-04 09:17:56 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Product.php(19): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 09:17:59 --> mysqli_sql_exception: Table 'db_apotek.pengguna' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Product.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Product->index()
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+CRITICAL - 2023-03-04 09:17:59 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Product.php(19): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 09:18:23 --> mysqli_sql_exception: Table 'db_apotek.pengguna' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Product.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Product->index()
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+CRITICAL - 2023-03-04 09:18:23 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Product.php(19): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 10:02:28 --> mysqli_sql_exception: Table 'db_apotek.pelanggans' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\CPelanggan.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\CPelanggan->index()
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPelanggan))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+CRITICAL - 2023-03-04 10:02:28 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\CPelanggan.php(19): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CPelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 10:11:01 --> mysqli_sql_exception: Table 'db_apotek.obats' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\CObat.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\CObat->index()
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CObat))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+CRITICAL - 2023-03-04 10:11:01 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\CObat.php(19): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CObat->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CObat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 10:11:29 --> mysqli_sql_exception: Table 'db_apotek.suppliers' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\CSupplier.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\CSupplier->index()
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSupplier))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+CRITICAL - 2023-03-04 10:11:29 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\CSupplier.php(19): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CSupplier->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSupplier))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 10:32:39 --> Call to a member function limit() on array
+in APPPATH\Controllers\Obat.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Obat->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obat))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 10:43:59 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\Project\vre\Api\ci4\app\Config\Routes.php on line 40 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Router\RouteCollection->get('obat')
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 10:45:04 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\Project\vre\Api\ci4\app\Config\Routes.php on line 40 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Router\RouteCollection->get('obat')
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 10:47:39 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\Project\vre\Api\ci4\app\Config\Routes.php on line 40 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Router\RouteCollection->get('obat')
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 11:04:33 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Obat/$1/$2
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Obat/$1/$2')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('obat/0/10')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('obat/0/10')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 11:04:53 --> A dynamic controller is not allowed for security reasons. Route handler: \App\Controllers\Obat\$1\$2
+in SYSTEMPATH\Router\Router.php on line 472.
+ 1 SYSTEMPATH\Router\Router.php(472): CodeIgniter\Router\Exceptions\RouterException::forDynamicController('\\App\\Controllers\\Obat\\$1\\$2')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('obat/0/10')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('obat/0/10')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 11:05:34 --> A dynamic controller is not allowed for security reasons. Route handler: \App\Controllers\Obat\$1\$2
+in SYSTEMPATH\Router\Router.php on line 472.
+ 1 SYSTEMPATH\Router\Router.php(472): CodeIgniter\Router\Exceptions\RouterException::forDynamicController('\\App\\Controllers\\Obat\\$1\\$2')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('obat/0/10')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('obat/0/10')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 11:11:40 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\Project\vre\Api\ci4\app\Config\Routes.php on line 41 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(41): CodeIgniter\Router\RouteCollection->get('jenis')
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 11:14:34 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Jenis/$1/$2
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Jenis/$1/$2')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('jenis/0/2')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('jenis/0/2')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 11:48:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'Kaplet'
+ORDER BY `Id` DESC
+ LIMIT 2' at line 3 in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+CRITICAL - 2023-03-04 11:48:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'Kaplet'
+ORDER BY `Id` DESC
+ LIMIT 2' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` LIKE = \'Kaplet\'
+ORDER BY `Id` DESC
+ LIMIT 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` LIKE = \'Kaplet\'
+ORDER BY `Id` DESC
+ LIMIT 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` LIKE = \'Kaplet\'
+ORDER BY `Id` DESC
+ LIMIT 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` LIKE = :Nama LIKE:
+ORDER BY `Id` DESC
+ LIMIT 2', [...], false)
+ 5 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+ 7 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 11:48:42 --> Call to undefined method App\Models\MJenis::wherelike
+in SYSTEMPATH\Model.php on line 811.
+ 1 APPPATH\Controllers\Jenis.php(20): CodeIgniter\Model->__call('wherelike', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 11:50:06 --> Class "App\Controllers\__construct" not found
+in APPPATH\Controllers\Jenis.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Jenis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:13:25 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(21): CodeIgniter\BaseModel->findAll(2, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(21): CodeIgniter\BaseModel->findAll(2, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:13:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 2', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+ 5 APPPATH\Controllers\Jenis.php(21): CodeIgniter\BaseModel->findAll(2, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:13:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(21): CodeIgniter\BaseModel->findAll(2, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(21): CodeIgniter\BaseModel->findAll(2, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:13:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 2', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+ 5 APPPATH\Controllers\Jenis.php(21): CodeIgniter\BaseModel->findAll(2, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:14:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:14:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 2', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+ 5 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:14:28 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:14:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 2', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+ 5 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:14:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:14:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 2', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+ 5 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:15:25 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:15:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 2', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+ 5 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:16:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:16:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 2', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(2, 0)
+ 5 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(2, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:16:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index()
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index()
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:16:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 10', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 12:16:19 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index()
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index()
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 12:16:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` = :Nama:
+ORDER BY `Id` DESC
+ LIMIT 10', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 22:29:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_apotek', 3306, '', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Project\vre\Api\ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Project\vre\Api\ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#11 {main}
+CRITICAL - 2023-03-04 22:29:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jenis_obat`
+WHERE `Nama` LIKE :Nama: ESCAPE \'!\'
+ORDER BY `Id` DESC
+ LIMIT 10', [...], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(10, 0)
+ 5 APPPATH\Controllers\Jenis.php(20): CodeIgniter\BaseModel->findAll(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 22:33:35 --> Call to undefined method App\Models\MJenis::count
+in SYSTEMPATH\Model.php on line 811.
+ 1 APPPATH\Controllers\Jenis.php(21): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 22:44:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count()
+in APPPATH\Controllers\Jenis.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 22:46:21 --> Empty statement is given for the field `Select`
+in SYSTEMPATH\Database\BaseBuilder.php on line 487.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(487): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(458): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('ROOTPATH\\public', 'ROOTPATH\\public', 'COUNT')
+ 3 APPPATH\Controllers\Jenis.php(21): CodeIgniter\Database\BaseBuilder->selectCount()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 22:46:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Jenis.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 22:46:53 --> mysqli_sql_exception: Unknown column 'jdata' in 'field list' in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(`j...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`j...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`j...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`j...', Array, false)
+#4 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(21): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#10 {main}
+CRITICAL - 2023-03-04 22:46:53 --> Unknown column 'jdata' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(`jdata`) AS `jdata`
+FROM `jenis_obat`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`jdata`) AS `jdata`
+FROM `jenis_obat`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`jdata`) AS `jdata`
+FROM `jenis_obat`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`jdata`) AS `jdata`
+FROM `jenis_obat`
+ LIMIT 10', [], false)
+ 5 APPPATH\Controllers\Jenis.php(21): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 22:48:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `jenis_obat`' at line 1 in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#10 {main}
+CRITICAL - 2023-03-04 22:48:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `jenis_obat`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS *
+FROM `jenis_obat`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS *
+FROM `jenis_obat`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS *
+FROM `jenis_obat`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS *
+FROM `jenis_obat`', [], false)
+ 5 APPPATH\Controllers\Jenis.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 22:51:44 --> Call to undefined method App\Controllers\Jenis::table()
+in APPPATH\Controllers\Jenis.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 22:52:02 --> mysqli_sql_exception: Table 'db_apotek.jenis' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(`n...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#10 {main}
+CRITICAL - 2023-03-04 22:52:02 --> Table 'db_apotek.jenis' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(`nama`) AS `jdata`
+FROM `jenis`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`nama`) AS `jdata`
+FROM `jenis`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`nama`) AS `jdata`
+FROM `jenis`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`nama`) AS `jdata`
+FROM `jenis`', [], false)
+ 5 APPPATH\Controllers\Jenis.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 22:54:01 --> Call to undefined function App\Controllers\push()
+in APPPATH\Controllers\Jenis.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:01:27 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Controllers\Jenis.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:08:10 --> Call to undefined function App\Controllers\getResultArray()
+in APPPATH\Controllers\Jenis.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:08:54 --> Call to undefined function App\Controllers\getRowArray()
+in APPPATH\Controllers\Jenis.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:11:02 --> Call to undefined function App\Controllers\getRowArray()
+in APPPATH\Controllers\Jenis.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:12:00 --> Undefined variable $target
+in APPPATH\Controllers\Jenis.php on line 24.
+ 1 APPPATH\Controllers\Jenis.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $target', 'APPPATH\\Controllers\\Jenis.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 23:12:20 --> mysqli_sql_exception: Table 'db_apotek.pengguna' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#10 {main}
+CRITICAL - 2023-03-04 23:12:20 --> Table 'db_apotek.pengguna' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pengguna`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pengguna`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pengguna`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`', [], false)
+ 5 APPPATH\Controllers\Jenis.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:13:55 --> Call to undefined function App\Controllers\getRowArray()
+in APPPATH\Controllers\Jenis.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:14:53 --> Call to undefined function App\Controllers\getRowArray()
+in APPPATH\Controllers\Jenis.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-04 23:15:48 --> mysqli_sql_exception: Table 'db_apotek.pengguna' doesn't exist in C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Project\vre\Api\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Project\vre\Api\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Project\vre\Api\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Project\vre\Api\ci4\app\Controllers\Jenis.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Project\vre\Api\ci4\system\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+#6 C:\Project\vre\Api\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\Project\vre\Api\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Project\vre\Api\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Project\vre\Api\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Project\\vre\\...')
+#10 {main}
+CRITICAL - 2023-03-04 23:15:48 --> Table 'db_apotek.pengguna' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pengguna`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pengguna`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pengguna`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`', [], false)
+ 5 APPPATH\Controllers\Jenis.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:16:01 --> Call to undefined function App\Controllers\getRowArray()
+in APPPATH\Controllers\Jenis.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:17:13 --> Undefined variable $tb_pengguna
+in APPPATH\Controllers\Jenis.php on line 23.
+ 1 APPPATH\Controllers\Jenis.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_pengguna', 'APPPATH\\Controllers\\Jenis.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:19:01 --> Undefined property: App\Controllers\Jenis::$db
+in APPPATH\Controllers\Jenis.php on line 22.
+ 1 APPPATH\Controllers\Jenis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jenis::$db', 'APPPATH\\Controllers\\Jenis.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-04 23:19:27 --> Undefined property: App\Controllers\Jenis::$db
+in APPPATH\Controllers\Jenis.php on line 22.
+ 1 APPPATH\Controllers\Jenis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jenis::$db', 'APPPATH\\Controllers\\Jenis.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Jenis->index('0', '10', 'i')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
